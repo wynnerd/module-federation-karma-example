@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "lib": ["es2017", "dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "outDir": "out-tsc",
+    "baseUrl": "/"
+  },
+  "include": ["src", "test", "node_modules/@dgu/**/federated-types/*.ts" , "node_modules/webpack/module.d.ts"],
+  "typeRoots": ["./node_modules/@types"]
+}
