@@ -15,6 +15,10 @@ const commonConfig = {
     chunkFilename: 'asset-[id].js',
     clean: true,
   },
+  optimization: {
+    splitChunks: false,
+    runtimeChunk: undefined
+  },
   module: {
     rules: [
       {

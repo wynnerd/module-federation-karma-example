@@ -4,7 +4,7 @@
   "exposes": {
   },
   "remotes": {
-    "Federated": "Federated@http://localhost:3002"
+    "Federated": "Federated@http://localhost:3002/remoteEntry.js"
   },
   "shared": {
     "lit": {

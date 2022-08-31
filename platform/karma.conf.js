@@ -39,14 +39,16 @@ module.exports = (config) => {
     files: [
       // all files ending in ".test.js"
       // !!! use watched: false as we use webpacks watch
-      { pattern: 'test/**/*.test.ts', watched: false },
+      { pattern: 'test/**/*.test.js', watched: false },
     ],
 
     preprocessors: {
       // add webpack as preprocessor
-      'test/**/*.test.ts': ['webpack', 'sourcemap'],
+      'test/**/*.test.js': ['webpack'],
     },
 
     webpack: require('./webpack.config')
   });
 };
+
+
